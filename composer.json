@@ -1,0 +1,19 @@
+{
+    "name": "dridi-walid/pci_demo",
+    "authors": [
+        {
+            "name": "Dridi Walid",
+            "email": "wdridi1@gmail.com"
+        }
+    ],
+    "require": {
+        "phing/phing": "^2.16",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/",
+            "Test\\": "tests/"
+        }
+    }
+}
